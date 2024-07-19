@@ -1,6 +1,5 @@
-# file-loader
 
-## background
+## Background
 魔方前端项目会根据swqa的接口文档生成类型文件，为每个接口提供类型提示；
 
 但是，由于导出规则原因，记录接口名称的文件内的导出没被tree shaking，从而导致包体积较大；
