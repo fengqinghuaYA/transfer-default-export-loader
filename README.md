@@ -29,11 +29,11 @@ module.exports = {
           {
             loader: 'transfer-default-export-loader',
             options:{
-                patterns:{
+                patterns:[{
                     exportName:"WebHttp",
                     importPaths:["@/def","def/web"],
-                    originPath:"'def/web/http.constant'"
-                }
+                    originPath:"def/web/http.constant"
+                }]
             }
           },
         ],
