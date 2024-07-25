@@ -9,7 +9,10 @@
   "keywords": [
     "default",
     "export",
-    "transfer"
+    "transfer",
+    "webpack",
+    "loader",
+    "tree shaking"
   ],
   "author": "fengqinghua@cvte.com",
   "license": "ISC",
